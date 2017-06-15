@@ -1,13 +1,16 @@
 div#wrapper{
-    background-color: silver;
+    font-family: sans-serif, serif;
+    font-weight: 100pt;
+    color: #2e264b;
     margin: auto;
     width: 1280px;
     height: 720px;
     padding: 20px;
 }
 div#header{
-    background-color: yellow;
+    background-color: #0b56a7;
     height: 100px;
+    border-radius: 5px;
 }
 h1{
     display: inline;
@@ -16,4 +19,14 @@ img{
     width: 100px;
     height: 100px;
     float: right;
+}
+.box{
+    vertical-align: top;
+    display: inline-block;
+    width: 402px;
+    height: 200px;
+    margin-top: 10px;
+    background-color: #f3d65e;
+    padding: 10px;
+    border-radius: 5px;
 }
