@@ -1,0 +1,15 @@
+<div id='wrapper'>
+  <div id='header'>
+    <h1>Initial Power Level</h1>
+    <select [(ngModel)]='powerlevel'>
+      <option *ngFor='let power of powerArr' value={{power}}>{{power}}</option>
+    </select>
+    <img src="http://orig03.deviantart.net/a16b/f/2015/098/0/f/goku_super_saiyan_by_jeffthesupersaiyan-d8oxtbw.jpg" alt="goku">
+  </div> <!-- header -->
+  <app-human [powerlevel]='powerlevel'></app-human>
+  <app-saiyan [powerlevel]='powerlevel*10'></app-saiyan>
+  <app-super-saiyan [powerlevel]='powerlevel*90'></app-super-saiyan>
+  <app-super-saiyan-two [powerlevel]='powerlevel*150'></app-super-saiyan-two>
+  <app-super-saiyan-three [powerlevel]='powerlevel*250'></app-super-saiyan-three>
+  <app-super-saiyan-four [powerlevel]='powerlevel*500'></app-super-saiyan-four>
+</div>

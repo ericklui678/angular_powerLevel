@@ -1,0 +1,19 @@
+div#wrapper{
+    background-color: silver;
+    margin: auto;
+    width: 1280px;
+    height: 720px;
+    padding: 20px;
+}
+div#header{
+    background-color: yellow;
+    height: 100px;
+}
+h1{
+    display: inline;
+}
+img{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
