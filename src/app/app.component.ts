@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  powerlevel: number = 0;
   powerArr = this.createPowerLevel();
   createPowerLevel(){
     let arr: Array<number> = [];
